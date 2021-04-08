@@ -313,7 +313,7 @@ extern unsigned long pc;
 extern int interpreter_state;
 extern int interpreter_status;
 
-extern prog_char lookup_table[3][26] PROGMEM;
+extern const char lookup_table[3][26] PROGMEM;
 
 extern int screen_window;
 

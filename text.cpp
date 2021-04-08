@@ -564,7 +564,7 @@ void write_char( int c )
 *
 */
 
-void write_string( const prog_char *s )
+void write_string( const char *s )
 {
     while ( *s )
         write_char( *s++ );
